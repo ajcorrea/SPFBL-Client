@@ -235,23 +235,6 @@ public class MainFrame extends javax.swing.JFrame {
         txtHost.setText(host);
         txtPort.setText(port);
         
-        //Preencher com comandos.
-        txtComando.setModel(new javax.swing.DefaultComboBoxModel(
-                new String[] { 
-                    "VERSION",                  //0 
-                    "REPUTATION",               //1 
-                    "BLOCK SHOW",               //2
-                    "BLOCK SHOW ALL",           //3
-                    "WHITE SHOW",               //4
-                    "TRAP SHOW",                //5
-                    "IGNORE SHOW",              //6
-                    "PEER RETENTION SHOW ALL",  //7
-                    "GUESS SHOW",               //8
-                    "PROVIDER SHOW",            //9
-                    "TLD SHOW",                 //10
-                    "PEER SHOW"                 //11
-                }
-        ));
     }//GEN-LAST:event_formWindowOpened
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
