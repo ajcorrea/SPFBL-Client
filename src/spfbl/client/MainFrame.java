@@ -16,7 +16,8 @@ import java.util.prefs.*;
 
 /**
  *
- * @author alexandre
+ * @author alexandre jeronimo correa
+ * ajcorrea@gmail.com
  */
 public class MainFrame extends javax.swing.JFrame {
 
